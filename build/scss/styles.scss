@@ -1,0 +1,105 @@
+// Imports
+@import "./colors";
+@import "./fonts";
+
+/*==================== BASE ====================*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: $BackgroundColor_White;
+}
+
+/*  hides website scrollbar, But Keep scrolling Functionality */
+::-webkit-scrollbar {
+	display: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	font-family: $fontStyle_body;
+}
+
+h2 {
+	color: $BaseColor_black;
+	font-size: $fontSize_large;
+	font-family: $fontStyle_header;
+}
+
+p {
+	line-height: 1.25em;
+	color: $BaseColor_black;
+	font-size: $fontSize_large;
+	font-family: $fontStyle_header;
+}
+
+/*===== NAVIGATION MENU =====*/
+header {
+	border: #ff0055 0.25rem solid;
+	.nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		ul {
+			display: flex;
+			list-style-type: none;
+		}
+
+		li {
+			padding: 1rem;
+			width: fit-content;
+			text-align: center;
+			// border: #ff0055 0.25rem solid;
+		}
+
+		.logoImage {
+			width: 75px;
+			height: 75px;
+		}
+
+		.logoImage:hover {
+			transition: all 0.25s ease-in-out;
+			transform: scale(1.05);
+		}
+
+		.bi {
+			border-radius: 10px;
+			padding: 0.75rem 1.5rem;
+			color: $BaseColor_white;
+			font-size: $fontSize_normal;
+			background: $secondary_Purple;
+		}
+
+		.bi:hover {
+			transition: all 0.25s ease-in-out;
+			background: $AdditionalColor_Purple1;
+		}
+	}
+
+	a {
+		font-weight: 600;
+		text-decoration: none;
+		color: $BaseColor_black;
+		font-size: $fontSize_normal;
+	}
+
+	a:hover {
+		color: $secondary_Purple;
+	}
+}
+
+/* ===== HERO =====*/
