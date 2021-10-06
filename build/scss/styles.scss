@@ -101,14 +101,12 @@ header {
 
 /* ===== FOOTER =====*/
 .contactUs {
+	margin: auto;
 	padding: 2rem;
 	display: flex;
 	position: relative;
 	align-items: center;
-	border: #ff0055 0.25rem solid;
-	// left: 50%;
-	// top: 50%;
-	// transform: translate(-50%, -50%);
+	justify-content: center;
 
 	.socials {
 		display: flex;
@@ -143,6 +141,7 @@ header {
 		background-color: $backgroundColor_lightBlack;
 
 		.c-heading {
+			padding: 1rem;
 			h2 {
 				margin: auto;
 				padding: 1rem;
@@ -154,7 +153,7 @@ header {
 
 			p {
 				text-align: center;
-				font-size: $fontSize_normal;
+				font-size: $fontSize_small;
 				font-family: $fontStyle_body;
 				color: $AdditionalColor-lightGrey;
 			}
@@ -185,6 +184,11 @@ header {
 					border: $AdditionalColor-lightGrey 0.15rem solid;
 				}
 
+				input:focus {
+					transition: all 0.25s ease-in-out;
+					border: $AdditionalColor-darkPurple2 0.15rem solid;
+				}
+
 				::placeholder {
 					font-size: $fontSize_small;
 					color: $AdditionalColor-lightGrey;
@@ -199,6 +203,7 @@ header {
 					padding: 0.5rem;
 					margin-top: 1rem;
 					border-radius: 5px;
+					box-sizing: border-box;
 					color: $baseColor_black;
 					width: 250px !important;
 					height: 200px !important;
@@ -207,25 +212,47 @@ header {
 					border: $AdditionalColor-lightGrey 0.15rem solid;
 				}
 
+				textarea:focus {
+					transition: all 0.25s ease-in-out;
+					border: none;
+					border: $AdditionalColor-darkPurple2 0.15rem solid;
+				}
+
 				button {
 					border: none;
+					outline: none;
+					width: 150px;
 					margin-top: 2rem;
 					font-weight: 300;
 					border-radius: 5px;
 					padding: 0.5rem 2rem;
+					justify-self: center;
 					letter-spacing: 0.05rem;
 					color: $baseColor_white;
+					justify-self: center;
 					font-size: $fontSize_normal;
 					font-family: $fontStyle_option1;
-					background: $AdditionalColor-lightGrey;
+					background: $secondary_Purple;
 				}
 
 				button:hover {
 					transition: all 0.25s ease-in-out;
 					background: $AdditionalColor-darkPurple2;
 				}
+
+				button:active {
+					transform: scale(1.01);
+				}
 			}
 		}
+	}
+
+	.map {
+		filter: grayscale(0.2);
+		box-shadow: $box-shadow-7;
+		border-radius: 0 5px 5px 0;
+		border: $baseColor_black 0.25rem solid;
+		border-left: none;
 	}
 }
 
@@ -324,6 +351,14 @@ header {
 					}
 				}
 			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.contactUs {
+		.map {
+			display: none;
 		}
 	}
 }
