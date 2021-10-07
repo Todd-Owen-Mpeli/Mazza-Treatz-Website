@@ -57,7 +57,6 @@ header {
 			justify-content: space-between;
 
 			a {
-				font-weight: 600;
 				text-decoration: none;
 				color: $baseColor_black;
 				font-size: $fontSize_small;
@@ -142,7 +141,7 @@ header {
 				margin: auto;
 				padding: 1rem;
 				text-align: left;
-				color: $AdditionalColor-whiteDouble;
+				color: $baseColor_white;
 				font-size: $fontSize_large-1;
 				font-family: $fontStyle_option1;
 			}
