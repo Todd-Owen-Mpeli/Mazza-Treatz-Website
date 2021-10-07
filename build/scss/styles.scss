@@ -93,7 +93,7 @@ header {
 	}
 }
 
-/* ===== FOOTER =====*/
+/* ===== CONTACT US =====*/
 .contactUs {
 	margin: auto;
 	padding: 2rem;
@@ -270,7 +270,7 @@ header {
 				text-align: left;
 				color: $baseColor_white;
 				font-size: $fontSize_normal;
-				font-family: $fontStyle_option2;
+				font-family: $fontStyle_option3;
 			}
 
 			p {
@@ -281,29 +281,25 @@ header {
 			}
 
 			div {
-				margin-top: 2rem;
+				margin: auto;
+				display: grid;
+				padding: 0rem;
+				list-style: none;
+				margin-top: 1.5rem;
+				grid-template-columns: 1fr;
+				// border: #692bfa 0.25rem solid;
 
-				ul {
-					margin: auto;
-					padding: 0rem;
-					list-style: none;
+				a {
+					line-height: 2rem;
+					text-decoration: none;
+					color: $baseColor_white;
+					font-size: $fontSize_small;
+					font-family: $fontStyle_option3;
+				}
 
-					li {
-						display: flex;
-						margin: 0.5rem 1rem;
-
-						a {
-							text-decoration: none;
-							color: $baseColor_white;
-							font-size: $fontSize_small;
-							font-family: $fontStyle_option2;
-						}
-
-						a:hover {
-							transition: all 0.25s ease-in-out;
-							color: $secondary_Purple;
-						}
-					}
+				a:hover {
+					transition: all 0.25s ease-in-out;
+					color: $secondary_Purple;
 				}
 			}
 		}
@@ -321,30 +317,26 @@ header {
 					font-size: $fontSize_small;
 					font-family: $fontStyle_body;
 				}
+			}
+			.socials {
+				margin: auto;
+				display: flex;
+				padding: 0rem;
+				list-style: none;
 
-				ul {
-					margin: auto;
-					margin-right: 1rem;
-					display: flex;
-					padding: 0rem;
-					list-style: none;
-					width: fit-content;
-					// border: #fbb040 0.25rem solid;
+				justify-content: right;
 
-					li {
-						margin: 0 1rem;
-						a {
-							text-decoration: none;
-							color: $baseColor_white;
-							font-size: $fontSize_normal;
-							font-family: $fontStyle_body;
-						}
+				a {
+					margin: 0 1rem;
+					text-decoration: none;
+					color: $baseColor_white;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_body;
+				}
 
-						a:hover {
-							transition: all 0.25s ease-in-out;
-							color: $secondary_orange;
-						}
-					}
+				a:hover {
+					transition: all 0.25s ease-in-out;
+					color: $secondary_orange;
 				}
 			}
 		}
