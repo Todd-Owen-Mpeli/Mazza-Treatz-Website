@@ -29,6 +29,10 @@ img {
 	width: 100%;
 }
 
+ul {
+	list-style-type: none;
+}
+
 a {
 	text-decoration: none;
 	font-family: $fontStyle_body;
@@ -44,50 +48,60 @@ p {
 
 /*===== NAVIGATION MENU =====*/
 header {
+	padding: 0.5rem;
 	.nav {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+
+		.nav_Logo {
+			.logoImage {
+				width: 65px;
+				height: 65px;
+			}
+
+			.logoImage:hover {
+				transition: all 0.25s ease-in-out;
+				transform: scale(1.05);
+			}
+		}
 
 		.navMenu {
+			margin: auto;
 			display: flex;
-			padding: 1rem;
-			list-style-type: none;
-			text-align: center;
-			justify-content: space-between;
+			align-items: center;
+			justify-content: center;
+
+			li {
+				padding: 20px;
+				a {
+					text-decoration: none;
+					color: $baseColor_black;
+					font-size: $fontSize_small;
+				}
+
+				a:hover {
+					color: $AdditionalColor_Purple1;
+				}
+			}
+		}
+
+		.checkoutBtn {
+			margin: auto;
+			display: flex;
+			padding-right: 1rem;
+			align-items: center;
+			justify-content: end;
 
 			a {
-				text-decoration: none;
+				border-radius: 10px;
 				color: $baseColor_black;
-				font-size: $fontSize_small;
+				font-size: $fontSize_large;
 			}
 
 			a:hover {
-				color: $AdditionalColor_Purple1;
-			}
-
-			.bi {
-				border-radius: 10px;
-				padding: 0.75rem 1.5rem;
-				color: $baseColor_white;
-				font-size: $fontSize_small;
-				background: $AdditionalColor_Purple1;
-			}
-
-			.bi:hover {
 				transition: all 0.25s ease-in-out;
-				background: $AdditionalColor-darkPurple2;
+				color: $AdditionalColor-darkPurple2;
 			}
-		}
-
-		.logoImage {
-			width: 65px;
-			height: 65px;
-		}
-
-		.logoImage:hover {
-			transition: all 0.25s ease-in-out;
-			transform: scale(1.05);
 		}
 	}
 }
@@ -97,7 +111,6 @@ header {
 	margin: auto;
 	padding: 2rem;
 	display: flex;
-	position: relative;
 	align-items: center;
 	justify-content: center;
 	background-color: $backgroundColor_White;
@@ -262,7 +275,22 @@ header {
 		margin: auto;
 		overflow: auto;
 
+		.nav_Logo {
+			margin-right: 2.5rem;
+			// border: #8a59fd 0.25rem solid;
+			.logoImage {
+				width: 100%;
+				height: auto;
+			}
+
+			.logoImage:hover {
+				transition: all 0.25s ease-in-out;
+				transform: scale(1.05);
+			}
+		}
+
 		.content {
+			// border: #8a59fd 0.25rem solid;
 			padding: 1.5rem;
 
 			h2 {
