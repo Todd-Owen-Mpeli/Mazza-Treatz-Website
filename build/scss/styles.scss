@@ -49,6 +49,7 @@ p {
 /*===== NAVIGATION MENU =====*/
 header {
 	padding: 0.5rem;
+
 	.nav {
 		display: flex;
 		align-items: center;
@@ -109,13 +110,12 @@ header {
 
 /* ===== SPECIAL OFFER =====*/
 .specialOffer {
-	padding: 2rem 0;
+	padding: 1rem 0;
 	list-style: none;
-	// border: #ff0055 0.25rem solid;
 
 	h2 {
-		text-align: left;
 		padding: 0.5rem;
+		text-align: left;
 		width: fit-content;
 		color: $baseColor_black;
 		font-size: $fontSize_large;
@@ -123,15 +123,13 @@ header {
 	}
 
 	.carousel {
-		padding: 2rem;
-		border: #ff0055 0.25rem solid;
+		padding: 0 1.5rem;
 
 		.carousel-inner {
 			.carousel-item {
 				.display {
 					margin: auto;
 					padding: 2rem 0.5rem;
-					border: #ff0055 0.25rem solid;
 
 					.card {
 						border: none;
@@ -210,8 +208,11 @@ header {
 
 								.saveItems {
 									border: none;
+
 									outline: none;
 									background: none;
+									align-self: center;
+									justify-content: left;
 
 									.bi {
 										color: $secondary_Purple;
@@ -230,7 +231,7 @@ header {
 									color: $baseColor_white;
 									font-size: $fontSize_small;
 									font-family: $fontStyle_option1;
-									background: $secondary_Purple;
+									background: $AdditionalColor-pinkRed;
 								}
 
 								.addToCart:hover {
@@ -274,7 +275,7 @@ header {
 /* ===== CONTACT US =====*/
 .contactUs {
 	margin: auto;
-	padding: 2rem;
+	padding: 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
