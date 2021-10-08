@@ -108,110 +108,131 @@ header {
 
 /* ===== SPECIAL OFFER =====*/
 .specialOffer {
-	padding: 1rem 0;
+	padding: 2rem 0;
 	border: #8a59fd 0.25rem solid;
 
-	.card {
-		width: 20rem;
-		padding: 0.25rem;
-		border-radius: 10px;
-
-		.img {
-			border: #f81ca0 0.25rem solid;
-
-			img {
-				width: 25%;
-				height: auto;
-				object-fit: contain;
-				border: #ff9900 0.25rem solid;
-			}
-		}
-
-		.content {
-			padding: 0.5rem;
-			border: #8a59fd 0.25rem solid;
-
-			.title {
-				padding: 0.5rem 0 0 0.5rem;
-
-				h2 {
-					text-align: left;
-					color: $baseColor_black;
-					font-size: $fontSize_large;
-					font-family: $fontStyle_option1;
-				}
-
-				h3 {
-					text-align: left;
-					font-size: $fontSize_small;
-					font-family: $fontStyle_option2;
-					color: $AdditionalColor-lightGrey;
-				}
-			}
-
-			.reviewSection {
-				.stars {
-					display: flex;
-					align-items: center;
-					i {
-						// padding: 0.25rem;
-						margin-left: 0.5rem;
-						color: $secondary_yellow;
-						font-size: $fontSize_small;
-					}
-				}
-			}
-
-			.price {
-				padding: 0.5rem;
-
-				h5 {
-					margin: auto;
-					text-align: left;
-					color: $baseColor_black;
-					font-size: $fontSize_normal;
-					font-family: $fontStyle_option2;
-				}
-			}
-
-			button {
-				border: none;
-				outline: none;
-				font-weight: 300;
-				margin-top: 0.5rem;
-				border-radius: 5px;
-				padding: 0.5rem 2rem;
-				justify-self: center;
-				justify-self: center;
-				letter-spacing: 0.05rem;
-				color: $baseColor_white;
-				font-size: $fontSize_normal;
-				font-family: $fontStyle_option1;
-				background: $secondary_Purple;
-			}
-
-			button:hover {
-				transition: all 0.25s ease-in-out;
-				background: $AdditionalColor-darkPurple2;
-			}
-
-			button:active {
-				transform: scale(1.01);
-			}
-
-			.bi {
-				margin-left: 0.5rem;
-				text-decoration: none;
-				color: $baseColor_white;
-				font-size: $fontSize_normal;
-				font-family: $fontStyle_body;
-			}
-		}
+	h2 {
+		text-align: left;
+		padding: 0.5rem;
+		color: $baseColor_black;
+		font-size: $fontSize_large;
+		font-family: $fontStyle_option2;
+		// border: $baseColor_black 0.25rem solid;
 	}
 
-	.card:hover {
-		transition: all 0.25s ease-in-out;
-		box-shadow: $box-shadow-10;
+	.display {
+		display: grid;
+		margin-top: 2rem;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 1rem;
+
+		.card {
+			border: none;
+			padding: 1rem;
+			border-radius: 10px;
+			box-shadow: $box-shadow-10;
+			// border: $baseColor_black 0.2rem solid;
+
+			.img {
+				height: 15rem;
+				padding: 1rem;
+				// border: #f81ca0 0.25rem solid;
+				background-color: $baseColor_white;
+
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+
+			.content {
+				margin-top: 0.5rem;
+				padding: 0 0.75rem;
+
+				.title {
+					padding: 0.25rem 0;
+
+					h2 {
+						padding: 0rem;
+						text-align: left;
+						color: $baseColor_black;
+						font-size: $fontSize_large;
+						font-family: $fontStyle_option1;
+					}
+
+					h3 {
+						text-align: left;
+						font-size: $fontSize_small;
+						font-family: $fontStyle_option2;
+						color: $AdditionalColor-lightGrey;
+					}
+				}
+
+				.reviewSection {
+					margin: auto;
+
+					.stars {
+						display: flex;
+						align-items: center;
+						justify-content: flex-start;
+
+						i {
+							color: $secondary_yellow;
+							font-size: $fontSize_small;
+						}
+					}
+				}
+
+				.price {
+					padding: 1rem 0;
+					h5 {
+						margin: auto;
+						text-align: left;
+						color: $baseColor_black;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_option2;
+					}
+				}
+
+				button {
+					border: none;
+					outline: none;
+					font-weight: 300;
+					margin-top: 0.5rem;
+					border-radius: 5px;
+					padding: 0.5rem 2rem;
+					justify-self: center;
+					justify-self: center;
+					letter-spacing: 0.05rem;
+					color: $baseColor_white;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_option1;
+					background: $secondary_Purple;
+				}
+
+				button:hover {
+					transition: all 0.25s ease-in-out;
+					background: $AdditionalColor-darkPurple2;
+				}
+
+				button:active {
+					transform: scale(1.01);
+				}
+
+				.bi {
+					margin-left: 0.5rem;
+					text-decoration: none;
+					color: $baseColor_white;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_body;
+				}
+			}
+		}
+
+		.card:hover {
+			transition: all 0.25s ease-in-out;
+			box-shadow: $box-shadow-7;
+		}
 	}
 }
 
