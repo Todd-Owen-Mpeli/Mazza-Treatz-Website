@@ -340,8 +340,12 @@ header {
 		}
 
 		.slide {
-			height: 100px;
-			width: 250px;
+			padding: 0 1.25rem;
+			img {
+				height: 100px;
+				width: 100%;
+				object-fit: contain;
+			}
 		}
 	}
 }
