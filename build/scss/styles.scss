@@ -113,12 +113,17 @@ header {
 
 	.card {
 		width: 20rem;
+		padding: 0.25rem;
 		border-radius: 10px;
+
 		.img {
+			border: #f81ca0 0.25rem solid;
+
 			img {
 				width: 25%;
 				height: auto;
 				object-fit: contain;
+				border: #ff9900 0.25rem solid;
 			}
 		}
 
@@ -128,7 +133,7 @@ header {
 
 			.title {
 				padding: 0.5rem 0 0 0.5rem;
-				border: #8a59fd 0.25rem solid;
+
 				h2 {
 					text-align: left;
 					color: $baseColor_black;
@@ -138,15 +143,13 @@ header {
 
 				h3 {
 					text-align: left;
-					font-size: $fontSize_normal;
+					font-size: $fontSize_small;
 					font-family: $fontStyle_option2;
 					color: $AdditionalColor-lightGrey;
 				}
 			}
 
 			.reviewSection {
-				border: #8a59fd 0.25rem solid;
-
 				.stars {
 					display: flex;
 					align-items: center;
@@ -161,7 +164,7 @@ header {
 
 			.price {
 				padding: 0.5rem;
-				border: #8a59fd 0.25rem solid;
+
 				h5 {
 					margin: auto;
 					text-align: left;
@@ -172,7 +175,6 @@ header {
 			}
 
 			button {
-				width: 150px;
 				border: none;
 				outline: none;
 				font-weight: 300;
@@ -195,6 +197,14 @@ header {
 
 			button:active {
 				transform: scale(1.01);
+			}
+
+			.bi {
+				margin-left: 0.5rem;
+				text-decoration: none;
+				color: $baseColor_white;
+				font-size: $fontSize_normal;
+				font-family: $fontStyle_body;
 			}
 		}
 	}
