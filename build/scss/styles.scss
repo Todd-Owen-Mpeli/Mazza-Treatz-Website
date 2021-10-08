@@ -135,9 +135,10 @@ header {
 						border: none;
 						padding: 1rem;
 						margin: 0 0.5rem;
-						justify-content: space-between;
 						border-radius: 10px;
+						text-decoration: none;
 						box-shadow: $box-shadow-10;
+						justify-content: space-between;
 
 						.img {
 							background-color: $baseColor_white;
@@ -155,12 +156,15 @@ header {
 							.title {
 								padding: 0.25rem 0;
 
-								h2 {
-									padding: 0rem;
-									text-align: left;
-									color: $baseColor_black;
-									font-size: $fontSize_normal;
-									font-family: $fontStyle_option3;
+								a {
+									text-decoration: none;
+									h2 {
+										padding: 0rem;
+										text-align: left;
+										color: $baseColor_black;
+										font-size: $fontSize_normal;
+										font-family: $fontStyle_option3;
+									}
 								}
 
 								h3 {
@@ -228,10 +232,14 @@ header {
 									justify-self: center;
 									padding: 0.5rem 1rem;
 									letter-spacing: 0.05rem;
-									color: $baseColor_white;
 									font-size: $fontSize_small;
-									font-family: $fontStyle_option1;
 									background: $secondary_pinkPurple;
+
+									a {
+										text-decoration: none;
+										color: $baseColor_white;
+										font-family: $fontStyle_option1;
+									}
 								}
 
 								.addToCart:hover {
@@ -253,22 +261,21 @@ header {
 				}
 			}
 		}
-	}
 
-	button {
-		height: 100%;
-		width: fit-content;
-
-		// border: #ff0055 0.25rem solid;
-		.bi {
-			color: $baseColor_black;
-			font-size: $fontSize_large;
+		button {
+			height: 100%;
+			width: fit-content;
+			text-decoration: none;
+			.bi {
+				color: $baseColor_black;
+				font-size: $fontSize_large;
+			}
 		}
-	}
 
-	button:hover {
-		transition: all 0.25s ease-in-out;
-		color: $AdditionalColor_Purple1;
+		button:hover {
+			transition: all 0.25s ease-in-out;
+			color: $AdditionalColor_Purple1;
+		}
 	}
 }
 
@@ -335,8 +342,8 @@ header {
 
 		.c-inputs {
 			form {
+				margin: 0;
 				display: grid;
-				margin: 1rem 0;
 				justify-content: center;
 				align-items: center;
 				grid-template-columns: 1fr;
@@ -406,7 +413,7 @@ header {
 					justify-self: center;
 					font-size: $fontSize_normal;
 					font-family: $fontStyle_option1;
-					background: $secondary_Purple;
+					background: $secondary_pinkPurple;
 				}
 
 				button:hover {
@@ -451,7 +458,7 @@ header {
 
 			.logoImage:hover {
 				transition: all 0.25s ease-in-out;
-				transform: scale(1.05);
+				transform: scale(1.01);
 			}
 		}
 
