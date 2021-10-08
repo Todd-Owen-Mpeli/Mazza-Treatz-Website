@@ -266,7 +266,7 @@ header {
 			height: 100%;
 			width: fit-content;
 			text-decoration: none;
-			.bi {
+			.bi-MB {
 				color: $baseColor_black;
 				font-size: $fontSize_large;
 			}
@@ -275,6 +275,73 @@ header {
 		button:hover {
 			transition: all 0.25s ease-in-out;
 			color: $AdditionalColor_Purple1;
+		}
+	}
+}
+
+/* ===== SNACKS, DRINKS & FOOD BRANDS =====*/
+.brandSliders {
+	margin: 1rem 0;
+	@mixin white-gradient {
+		background: linear-gradient(
+			to right,
+			$baseColor_white 0%,
+			rgba(255, 255, 255, 0) 100%
+		);
+	}
+
+	$animationSpeed: 40s;
+
+	// Animation
+	@keyframes scroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(calc(-250px * 7));
+		}
+	}
+
+	// Styling
+	.slider {
+		background: $baseColor_white;
+
+		height: 100px;
+		margin: auto;
+		overflow: hidden;
+		position: relative;
+		box-shadow: $box-shadow-11;
+
+		&::before,
+		&::after {
+			@include white-gradient;
+			content: "";
+			z-index: 2;
+			width: 200px;
+			height: 100px;
+			position: absolute;
+		}
+
+		&::after {
+			top: 0;
+			right: 0;
+			transform: rotateZ(180deg);
+		}
+
+		&::before {
+			top: 0;
+			left: 0;
+		}
+
+		.slide-track {
+			display: flex;
+			width: calc(250px * 14);
+			animation: scroll $animationSpeed linear infinite;
+		}
+
+		.slide {
+			height: 100px;
+			width: 250px;
 		}
 	}
 }
@@ -552,9 +619,144 @@ header {
 }
 
 @media (max-width: 450px) {
+	/*===== NAVIGATION MENU =====*/
+	header {
+		padding: 1.5rem;
+
+		.nav {
+			.nav_Logo {
+				.logoImage {
+					width: 45px;
+					height: 45px;
+				}
+			}
+
+			.navMenu {
+				display: none;
+			}
+		}
+	}
+
+	/* ===== SPECIAL OFFER =====*/
+	.specialOffer {
+		padding-bottom: 1.5rem;
+		list-style: none;
+
+		h2 {
+			padding: 0.5rem;
+			text-align: left;
+			width: fit-content;
+			color: $baseColor_black;
+			font-size: $fontSize_large;
+			font-family: $fontStyle_option2;
+		}
+
+		.carousel {
+			margin: auto;
+			padding: 0rem;
+
+			.carousel-inner {
+				.carousel-item {
+					.display {
+						margin: auto;
+						display: grid;
+						grid-template-columns: repeat(2, 1fr);
+						grid-gap: 1rem;
+						padding: 2rem 0.5rem;
+
+						.card {
+							border: none;
+							padding: 1rem;
+							margin: 0rem;
+							border-radius: 10px;
+							text-decoration: none;
+							box-shadow: $box-shadow-10;
+							justify-content: space-between;
+
+							.img {
+								background-color: $baseColor_white;
+
+								img {
+									width: 100%;
+									height: auto;
+								}
+							}
+
+							.content {
+								.reviewSection {
+									.stars {
+										i {
+											margin: 0 0.05rem;
+											color: $secondary_yellow;
+											font-size: $fontSize_small;
+										}
+									}
+								}
+
+								.savedCart {
+									padding: 0;
+									margin: auto;
+									display: flex;
+									flex-direction: column;
+									margin-top: 0.5rem;
+									justify-content: space-between;
+
+									.saveItems {
+										display: none;
+									}
+
+									.addToCart {
+										border: none;
+										outline: none;
+										font-weight: 300;
+										border-radius: 5px;
+										justify-self: center;
+										padding: 0.5rem 1rem;
+										letter-spacing: 0.05rem;
+										font-size: $fontSize_small;
+										background: $secondary_pinkPurple;
+
+										a {
+											text-decoration: none;
+											color: $baseColor_white;
+											font-family: $fontStyle_option1;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			button {
+				height: 100%;
+				width: fit-content;
+				text-decoration: none;
+				.bi-MB {
+					display: none;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+				}
+			}
+
+			button:hover {
+				transition: all 0.25s ease-in-out;
+				color: $AdditionalColor_Purple1;
+			}
+		}
+	}
+
+	/* ===== SNACKS, DRINKS & FOOD BRANDS =====*/
+	.brandSliders {
+		padding-bottom: 1.5rem;
+	}
+
+	/* ===== CONTACT US =====*/
 	.contactUs {
 		padding: 0rem;
 		position: static;
+		padding-bottom: 1.5rem;
 		box-sizing: border-box;
 		background-color: $backgroundColor_lightBlack;
 
@@ -576,6 +778,127 @@ header {
 
 		.map {
 			display: none;
+		}
+	}
+
+	/* ===== FOOTER =====*/
+	.footer {
+		padding: 2rem 0;
+		background-color: $backgroundColor_black;
+
+		.container {
+			display: flex;
+			flex-direction: column;
+
+			.content {
+				margin-top: 1rem;
+
+				div {
+					margin-top: 1rem;
+				}
+			}
+
+			.copyright {
+				display: flex;
+				flex-direction: column;
+
+				div {
+					display: flex;
+					justify-content: left;
+
+					h2 {
+						padding: 1rem 0;
+						text-align: left;
+					}
+				}
+				.socials {
+					display: flex;
+					justify-content: left;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 567px) and (max-width: 768px) {
+	/* ===== SPECIAL OFFER =====*/
+	.specialOffer {
+		padding-bottom: 1.5rem;
+		list-style: none;
+
+		h2 {
+			padding: 0.5rem;
+			text-align: left;
+			width: fit-content;
+			color: $baseColor_black;
+			font-size: $fontSize_large;
+			font-family: $fontStyle_option2;
+		}
+
+		.carousel {
+			margin: auto;
+			padding: 0rem;
+
+			.carousel-inner {
+				.carousel-item {
+					.display {
+						margin: auto;
+						display: grid;
+						grid-template-columns: repeat(4, 1fr);
+						grid-gap: 1rem;
+						padding: 2rem 0.5rem;
+
+						.card {
+							.content {
+								.reviewSection {
+									.stars {
+										i {
+											margin: 0 0.05rem;
+										}
+									}
+								}
+
+								.savedCart {
+									padding: 0;
+									margin: auto;
+									display: flex;
+									flex-direction: column;
+									margin-top: 0.5rem;
+									justify-content: space-between;
+
+									.saveItems {
+										display: none;
+									}
+
+									.addToCart {
+										a {
+											text-decoration: none;
+											color: $baseColor_white;
+											font-family: $fontStyle_option1;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			button {
+				height: 100%;
+				width: fit-content;
+				text-decoration: none;
+				.bi-MB {
+					display: none;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+				}
+			}
+
+			button:hover {
+				transition: all 0.25s ease-in-out;
+				color: $AdditionalColor_Purple1;
+			}
 		}
 	}
 }
