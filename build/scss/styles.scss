@@ -109,7 +109,6 @@ header {
 /* ===== SPECIAL OFFER =====*/
 .specialOffer {
 	padding: 2rem 0;
-	border: #8a59fd 0.25rem solid;
 
 	h2 {
 		text-align: left;
@@ -117,7 +116,6 @@ header {
 		color: $baseColor_black;
 		font-size: $fontSize_large;
 		font-family: $fontStyle_option2;
-		// border: $baseColor_black 0.25rem solid;
 	}
 
 	.display {
@@ -131,12 +129,8 @@ header {
 			padding: 1rem;
 			border-radius: 10px;
 			box-shadow: $box-shadow-10;
-			// border: $baseColor_black 0.2rem solid;
 
 			.img {
-				height: 15rem;
-				padding: 1rem;
-				// border: #f81ca0 0.25rem solid;
 				background-color: $baseColor_white;
 
 				img {
