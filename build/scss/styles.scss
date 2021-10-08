@@ -108,8 +108,101 @@ header {
 
 /* ===== SPECIAL OFFER =====*/
 .specialOffer {
-	height: 20rem;
+	padding: 1rem 0;
 	border: #8a59fd 0.25rem solid;
+
+	.card {
+		width: 20rem;
+		border-radius: 10px;
+		.img {
+			img {
+				width: 25%;
+				height: auto;
+				object-fit: contain;
+			}
+		}
+
+		.content {
+			padding: 0.5rem;
+			border: #8a59fd 0.25rem solid;
+
+			.title {
+				padding: 0.5rem 0 0 0.5rem;
+				border: #8a59fd 0.25rem solid;
+				h2 {
+					text-align: left;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_option1;
+				}
+
+				h3 {
+					text-align: left;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_option2;
+					color: $AdditionalColor-lightGrey;
+				}
+			}
+
+			.reviewSection {
+				border: #8a59fd 0.25rem solid;
+
+				.stars {
+					display: flex;
+					align-items: center;
+					i {
+						// padding: 0.25rem;
+						margin-left: 0.5rem;
+						color: $secondary_yellow;
+						font-size: $fontSize_small;
+					}
+				}
+			}
+
+			.price {
+				padding: 0.5rem;
+				border: #8a59fd 0.25rem solid;
+				h5 {
+					margin: auto;
+					text-align: left;
+					color: $baseColor_black;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_option2;
+				}
+			}
+
+			button {
+				width: 150px;
+				border: none;
+				outline: none;
+				font-weight: 300;
+				margin-top: 0.5rem;
+				border-radius: 5px;
+				padding: 0.5rem 2rem;
+				justify-self: center;
+				justify-self: center;
+				letter-spacing: 0.05rem;
+				color: $baseColor_white;
+				font-size: $fontSize_normal;
+				font-family: $fontStyle_option1;
+				background: $secondary_Purple;
+			}
+
+			button:hover {
+				transition: all 0.25s ease-in-out;
+				background: $AdditionalColor-darkPurple2;
+			}
+
+			button:active {
+				transform: scale(1.01);
+			}
+		}
+	}
+
+	.card:hover {
+		transition: all 0.25s ease-in-out;
+		box-shadow: $box-shadow-10;
+	}
 }
 
 /* ===== CONTACT US =====*/
@@ -412,3 +505,40 @@ header {
 		}
 	}
 }
+
+// .info {
+// 	.title {
+// 		text-align: left;
+// 		color: $baseColor_black;
+// 		font-size: $fontSize_large-0;
+// 		font-family: $fontStyle_option3;
+// 	}
+
+// 	p {
+// 		margin-top: 2rem;
+// 		font-size: $fontSize_small;
+// 		font-family: $fontStyle_option2;
+// 		color: $AdditionalColor-lightGrey;
+// 	}
+
+// 	h2 {
+// 		text-align: left;
+// 		color: $baseColor_black;
+// 		font-size: $fontSize_large-0;
+// 		font-family: $fontStyle_option3;
+// 	}
+
+// 	a {
+// 		line-height: 2rem;
+// 		padding: 1rem;
+// 		text-decoration: none;
+// 		color: $baseColor_black;
+// 		font-size: $fontSize_small;
+// 		font-family: $fontStyle_option2;
+// 	}
+
+// 	a:hover {
+// 		transition: all 0.25s ease-in-out;
+// 		color: $secondary_Purple;
+// 	}
+// }
