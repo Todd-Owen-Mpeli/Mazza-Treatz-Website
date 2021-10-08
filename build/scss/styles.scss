@@ -188,37 +188,50 @@ header {
 					}
 				}
 
-				button {
-					border: none;
-					outline: none;
-					font-weight: 300;
+				.savedCart {
+					padding: 0;
+					margin: auto;
+					display: flex;
 					margin-top: 0.5rem;
-					border-radius: 5px;
-					padding: 0.5rem 2rem;
-					justify-self: center;
-					justify-self: center;
-					letter-spacing: 0.05rem;
-					color: $baseColor_white;
-					font-size: $fontSize_normal;
-					font-family: $fontStyle_option1;
-					background: $secondary_Purple;
-				}
+					justify-content: space-between;
 
-				button:hover {
-					transition: all 0.25s ease-in-out;
-					background: $AdditionalColor-darkPurple2;
-				}
+					.saveItems {
+						border: none;
+						outline: none;
+						background: none;
 
-				button:active {
-					transform: scale(1.01);
-				}
+						.bi {
+							width: fit-content;
+							padding: 0.5rem 2rem;
+							color: $secondary_Purple;
+							font-size: $fontSize_large;
+						}
+					}
 
-				.bi {
-					margin-left: 0.5rem;
-					text-decoration: none;
-					color: $baseColor_white;
-					font-size: $fontSize_normal;
-					font-family: $fontStyle_body;
+					.addToCart {
+						border: #ff0055 0.25rem solid;
+						border: none;
+						outline: none;
+						font-weight: 300;
+						border-radius: 5px;
+						justify-self: center;
+						justify-self: center;
+						padding: 0.5rem 2rem;
+						letter-spacing: 0.05rem;
+						color: $baseColor_white;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_option1;
+						background: $secondary_Purple;
+					}
+
+					.addToCart:hover {
+						transition: all 0.25s ease-in-out;
+						background: $AdditionalColor-darkPurple2;
+					}
+
+					.addToCart:active {
+						transform: scale(1.01);
+					}
 				}
 			}
 		}
