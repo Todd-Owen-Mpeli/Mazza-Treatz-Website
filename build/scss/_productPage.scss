@@ -32,7 +32,8 @@
 
 					img {
 						width: 100%;
-						height: auto;
+						height: 150px;
+						object-fit: contain;
 					}
 				}
 
@@ -141,6 +142,7 @@
 	padding: 1rem 0;
 	padding-bottom: 3rem;
 	list-style: none;
+
 	h2 {
 		padding: 0.5rem;
 		text-align: left;
@@ -150,38 +152,82 @@
 		font-family: $fontStyle_option2;
 	}
 
-	div {
+	.content {
 		display: flex;
-		margin-top: 0.5rem;
 		align-items: center;
-		justify-content: left;
+		justify-content: space-between;
 
-		div {
-			p {
-				color: $baseColor_black;
-				font-size: $fontSize_normal;
+		.leftSection {
+			display: flex;
+			align-items: center;
+
+			div {
+				margin-top: 0.5rem;
+
+				p {
+					color: $baseColor_black;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_option2;
+				}
+			}
+
+			a {
+				margin: 0 0.5rem;
+				border-radius: 50px;
+				text-decoration: none;
+				padding: 0.5rem 0.75rem;
+				color: $baseColor_white;
+				font-size: $fontSize_small;
 				font-family: $fontStyle_option2;
+				background-color: $AdditionalColor_Purple1;
+
+				.bi {
+					margin-left: 0.2rem;
+				}
+			}
+
+			a:hover {
+				transition: all 0.25s ease-in-out;
+				background-color: $AdditionalColor-darkPurple2;
 			}
 		}
+	}
 
-		a {
-			margin: 0 0.5rem;
-			border-radius: 50px;
-			text-decoration: none;
-			padding: 0.5rem 0.75rem;
-			color: $baseColor_white;
+	.rightSection {
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: right;
+		align-items: center;
+
+		h2 {
+			padding: 0.5rem;
+			text-align: left;
+			width: fit-content;
+			color: $baseColor_black;
 			font-size: $fontSize_small;
 			font-family: $fontStyle_option2;
-			background-color: $AdditionalColor_Purple1;
-
-			.bi {
-				margin-left: 0.2rem;
-			}
 		}
 
-		a:hover {
-			transition: all 0.25s ease-in-out;
-			background-color: $AdditionalColor-darkPurple2;
+		.displayItem {
+			display: flex;
+			margin: auto;
+			align-items: center;
+			justify-content: space-between;
+
+			.sortBy {
+				margin-left: 0.75rem;
+			}
+
+			h3 {
+				padding: 0.5rem;
+				text-align: left;
+				width: fit-content;
+				color: $baseColor_black;
+				font-size: $fontSize_small;
+				font-family: $fontStyle_option2;
+				border: $AdditionalColor-lightGrey2 0.2rem solid;
+			}
 		}
 	}
 }
