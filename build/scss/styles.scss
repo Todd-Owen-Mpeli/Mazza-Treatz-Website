@@ -2,6 +2,7 @@
 @import "./fonts";
 @import "./colors";
 @import "./boxShadow";
+@import "./about";
 @import "./productPage";
 
 /*==================== bASE ====================*/
@@ -109,11 +110,33 @@ header {
 	}
 }
 
+/* ===== HERO =====*/
+.hero {
+	background-color: $AdditionalColor-darkPurple2;
+
+	.backgroundObjects {
+		padding: 4rem 0;
+		.circle {
+			margin: auto;
+			width: 35rem;
+			height: 35rem;
+			display: flex;
+			border-radius: 50%;
+			background-color: $secondary_Purple;
+		}
+	}
+}
+
 /* ===== SPECIAL OFFER =====*/
 .specialOffer {
 	padding: 1rem 0;
 	list-style: none;
-	background: $AdditionalColor_darkPurple;
+	// background: $secondary_Purple;
+	background: $backgroundGradient;
+	background-size: 1200% 600%;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: GradientKeyframes 20s ease-in-out infinite;
 
 	h2 {
 		padding: 0.75rem;
@@ -302,7 +325,6 @@ header {
 			grid-template-columns: repeat(4, 1fr);
 			grid-template-rows: 1fr;
 			grid-gap: 1.5rem;
-			// margin: auto;
 
 			.card {
 				border: none;
@@ -424,11 +446,6 @@ header {
 						}
 					}
 				}
-			}
-
-			.card:hover {
-				transition: all 0.25s ease-in-out;
-				box-shadow: $box-shadow-10;
 			}
 		}
 	}

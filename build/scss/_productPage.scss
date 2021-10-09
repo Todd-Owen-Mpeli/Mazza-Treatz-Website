@@ -1,4 +1,4 @@
-// CSS Styles for the Products Page
+// CSS Styles for the Drinks Products Page
 /*===== PRODUCTS =====*/
 .products {
 	padding: 1rem 0;
@@ -19,7 +19,6 @@
 			grid-template-columns: repeat(4, 1fr);
 			grid-template-rows: 1fr;
 			grid-gap: 1.5rem;
-			margin: auto;
 
 			.card {
 				border: none;
@@ -127,11 +126,6 @@
 						}
 					}
 				}
-			}
-
-			.card:hover {
-				transition: all 0.25s ease-in-out;
-				box-shadow: $box-shadow-10;
 			}
 		}
 	}
