@@ -155,6 +155,7 @@ header {
 				transition: all 0.25s ease-in-out;
 				transform: scale(1.02);
 			}
+
 			.fantaCan:hover {
 				transition: all 0.25s ease-in-out;
 				transform: scale(1.02);
@@ -162,7 +163,7 @@ header {
 		}
 
 		.circle:hover {
-			transition: all 0.25s ease-in-out;
+			transition: all 1s ease-in-out;
 			background: $AdditionalColor-darkOrange;
 		}
 	}
@@ -170,8 +171,9 @@ header {
 	.content {
 		margin: auto;
 		width: 50rem;
-		height: 1;
+		height: 10rem;
 		padding: 2rem;
+		border-radius: 15px;
 		position: relative;
 		grid-area: hero-overlap;
 		position: relative;
@@ -1131,6 +1133,51 @@ header {
 			button:hover {
 				transition: all 0.25s ease-in-out;
 				color: $AdditionalColor_Purple1;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* ===== HERO =====*/
+	.hero {
+		.backgroundObjects {
+			.circle {
+				width: 35vw;
+				height: 35vw;
+				.fantaCan {
+					width: 100%;
+					left: 300px;
+					bottom: 125px;
+					height: 450px;
+					position: relative;
+					object-fit: contain;
+				}
+
+				.barrCan {
+					width: 100%;
+					left: -550px;
+					bottom: -125px;
+					height: 200px;
+					position: relative;
+					object-fit: contain;
+				}
+
+				.barrCan:hover {
+					transition: all 0.25s ease-in-out;
+					transform: scale(1.05);
+				}
+
+				.fantaCan:hover {
+					transition: all 0.25s ease-in-out;
+					transform: scale(1.05);
+				}
+			}
+
+			.content {
+				margin: auto;
+				width: 25rem;
+				height: 10rem;
 			}
 		}
 	}
