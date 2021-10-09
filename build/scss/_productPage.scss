@@ -2,6 +2,7 @@
 /*===== PRODUCTS =====*/
 .products {
 	padding: 1rem 0;
+	padding-bottom: 3rem;
 	list-style: none;
 
 	h2 {
@@ -17,7 +18,7 @@
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
 			grid-template-rows: 1fr;
-			grid-gap: 1rem;
+			grid-gap: 1.5rem;
 			margin: auto;
 
 			.card {
@@ -62,22 +63,9 @@
 						}
 					}
 
-					.reviewSection {
-						.stars {
-							display: flex;
-							align-items: center;
-							justify-content: flex-start;
-
-							i {
-								margin: 0 0.2rem;
-								color: $secondary_yellow;
-								font-size: $fontSize_small;
-							}
-						}
-					}
-
 					.price {
-						padding: 1rem 0;
+						padding: 0.75rem 0;
+						margin-bottom: 0.5rem;
 
 						h5 {
 							margin: auto;
@@ -144,6 +132,56 @@
 				transition: all 0.25s ease-in-out;
 				box-shadow: $box-shadow-10;
 			}
+		}
+	}
+}
+
+/*===== RELATED CATEGORIES =====*/
+.relatedCategories {
+	padding: 1rem 0;
+	padding-bottom: 3rem;
+	list-style: none;
+	h2 {
+		padding: 0.5rem;
+		text-align: left;
+		width: fit-content;
+		color: $baseColor_black;
+		font-size: $fontSize_normal;
+		font-family: $fontStyle_option2;
+	}
+
+	div {
+		display: flex;
+		margin-top: 0.5rem;
+		align-items: center;
+		justify-content: left;
+
+		div {
+			p {
+				color: $baseColor_black;
+				font-size: $fontSize_normal;
+				font-family: $fontStyle_option2;
+			}
+		}
+
+		a {
+			margin: 0 0.5rem;
+			border-radius: 50px;
+			text-decoration: none;
+			padding: 0.5rem 0.75rem;
+			color: $baseColor_white;
+			font-size: $fontSize_small;
+			font-family: $fontStyle_option2;
+			background-color: $AdditionalColor_Purple1;
+
+			.bi {
+				margin-left: 0.2rem;
+			}
+		}
+
+		a:hover {
+			transition: all 0.25s ease-in-out;
+			background-color: $AdditionalColor-darkPurple2;
 		}
 	}
 }
