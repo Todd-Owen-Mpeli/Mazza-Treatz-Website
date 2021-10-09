@@ -116,13 +116,71 @@ header {
 
 	.backgroundObjects {
 		padding: 4rem 0;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-areas: "hero-overlap";
+
 		.circle {
 			margin: auto;
 			width: 35rem;
 			height: 35rem;
 			display: flex;
 			border-radius: 50%;
-			background-color: $secondary_Purple;
+			grid-area: hero-overlap;
+			background: $backgroundGradient;
+			background-size: 1200% 600%;
+			background-position: center;
+			background-repeat: no-repeat;
+			animation: GradientKeyframes 20s ease-in-out infinite;
+
+			.fantaCan {
+				width: 100%;
+				left: 400px;
+				bottom: 175px;
+				height: 600px;
+				position: relative;
+				object-fit: contain;
+			}
+
+			.barrCan {
+				width: 100%;
+				left: -700px;
+				bottom: -225px;
+				height: 350px;
+				position: relative;
+				object-fit: contain;
+			}
+
+			.barrCan:hover {
+				transition: all 0.25s ease-in-out;
+				transform: scale(1.02);
+			}
+			.fantaCan:hover {
+				transition: all 0.25s ease-in-out;
+				transform: scale(1.02);
+			}
+		}
+
+		.circle:hover {
+			transition: all 0.25s ease-in-out;
+			background: $AdditionalColor-darkOrange;
+		}
+	}
+
+	.content {
+		margin: auto;
+		width: 50rem;
+		height: 1;
+		padding: 2rem;
+		position: relative;
+		grid-area: hero-overlap;
+		position: relative;
+		background-color: $backgroundColor_White;
+
+		h2 {
+			color: $baseColor_black;
+			font-size: $fontSize_large;
+			font-family: $fontStyle_option2;
 		}
 	}
 }
@@ -131,7 +189,6 @@ header {
 .specialOffer {
 	padding: 1rem 0;
 	list-style: none;
-	// background: $secondary_Purple;
 	background: $backgroundGradient;
 	background-size: 1200% 600%;
 	background-position: center;
