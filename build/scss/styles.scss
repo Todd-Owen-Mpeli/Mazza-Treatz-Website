@@ -153,6 +153,16 @@ header {
 				transform: rotate(-10deg);
 			}
 
+			.mountainDewCan {
+				width: 100%;
+				left: -270px;
+				bottom: -450px;
+				height: 400px;
+				position: relative;
+				object-fit: contain;
+				transform: rotate(-25deg);
+			}
+
 			.fantaCan:hover {
 				transition: all 0.75s ease-in-out;
 				transform: scale(1.05);
@@ -162,15 +172,20 @@ header {
 				transition: all 0.75s ease-in-out;
 				transform: scale(1.05);
 			}
+
+			.mountainDewCan:hover {
+				transition: all 0.75s ease-in-out;
+				transform: scale(1.05);
+			}
 		}
 	}
 
 	.content {
 		margin: auto;
+		position: relative;
 		grid-area: hero-overlap;
 
 		h2 {
-			position: relative;
 			text-align: center;
 			color: $baseColor_white;
 			font-size: $fontSize_BG-large;
@@ -861,12 +876,6 @@ header {
 				}
 			}
 		}
-
-		.content {
-			margin: auto;
-			width: 80vw;
-			height: 25rem;
-		}
 	}
 
 	/* ===== SPECIAL OFFER =====*/
@@ -976,13 +985,17 @@ header {
 					object-fit: contain;
 					transition: all 1s ease-in-out;
 				}
-			}
-		}
 
-		.content {
-			margin: auto;
-			width: 80vw;
-			height: 25rem;
+				.mountainDewCan {
+					width: 100%;
+					left: -370px;
+					bottom: -450px;
+					height: 400px;
+					position: relative;
+					object-fit: contain;
+					transform: rotate(-25deg);
+				}
+			}
 		}
 	}
 
@@ -1167,7 +1180,7 @@ header {
 
 				.fantaCan {
 					width: 100%;
-					left: 35vw;
+					left: 45vw;
 					bottom: 150px;
 					height: 400px;
 					position: relative;
@@ -1185,13 +1198,17 @@ header {
 					object-fit: contain;
 					transition: all 1s ease-in-out;
 				}
-			}
-		}
 
-		.content {
-			margin: auto;
-			width: 50vw;
-			height: 25rem;
+				.mountainDewCan {
+					width: 100%;
+					left: -50vw;
+					bottom: -375px;
+					height: 250px;
+					position: relative;
+					object-fit: contain;
+					transform: rotate(-25deg);
+				}
+			}
 		}
 	}
 
@@ -1277,7 +1294,7 @@ header {
 		.backgroundObjects {
 			display: flex;
 			justify-content: space-between;
-			border: #ff9900 0.25rem solid;
+
 			.circle {
 				display: none;
 
@@ -1288,13 +1305,20 @@ header {
 				.barrCan {
 					display: none;
 				}
+
+				.mountainDewCan {
+					display: none;
+				}
 			}
 		}
 
 		.content {
-			margin: auto;
-			width: fit-content;
-			height: 25rem;
+			h2 {
+				text-align: center;
+				color: $baseColor_white;
+				font-size: $fontSize_XL-large;
+				font-family: $fontStyle_option1;
+			}
 		}
 	}
 }
