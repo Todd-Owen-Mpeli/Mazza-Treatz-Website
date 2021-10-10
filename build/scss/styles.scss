@@ -167,18 +167,13 @@ header {
 
 	.content {
 		margin: auto;
-		width: 50rem;
-		height: 10rem;
-		padding: 2rem;
-		border-radius: 15px;
-		position: relative;
 		grid-area: hero-overlap;
-		position: relative;
-		background-color: $backgroundColor_White;
 
 		h2 {
-			color: $baseColor_black;
-			font-size: $fontSize_large;
+			position: relative;
+			text-align: center;
+			color: $AdditionalColor-whiteDouble;
+			font-size: $fontSize_BG-large;
 			font-family: $fontStyle_option2;
 		}
 	}
