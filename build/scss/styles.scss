@@ -4,12 +4,14 @@
 @import "./boxShadow";
 @import "./about";
 @import "./productPage";
+@import "./revealAnimation";
 
 /*==================== bASE ====================*/
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	list-style: none;
 }
 
 html {

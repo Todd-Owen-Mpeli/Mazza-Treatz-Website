@@ -1,0 +1,13 @@
+/*===== REVEAL ANIMATIONS =====*/
+
+// Reveal Option 1
+.reveal {
+	opacity: 0;
+	transition: 0.8s ease-out;
+	transform: translateY(32px);
+}
+
+.reveal.faded-in {
+	transform: translateY(0);
+	opacity: 1;
+}
