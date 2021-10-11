@@ -1,20 +1,29 @@
 // CSS Styles for the About Us Page
 /*===== ABOUT US =====*/
 .about {
+	width: 100%;
+	display: flex;
 	padding: 1rem 0;
 	position: relative;
-	width: 100%;
-	color: $baseColor_black;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
 	align-items: center;
+	flex-direction: column;
+	color: $baseColor_black;
+	justify-content: space-around;
 
 	h2 {
 		text-align: center;
 		position: relative;
 		color: $baseColor_black;
-		font-size: $fontSize_large-0;
-		font-family: $fontStyle_option3;
+		font-size: $fontSize_large-1;
+		font-family: $fontStyle_option1;
+	}
+
+	p {
+		margin-top: 2rem;
+		span {
+			color: $baseColor_black;
+			font-size: $fontSize_normal;
+			font-family: $fontStyle_option3;
+		}
 	}
 }
