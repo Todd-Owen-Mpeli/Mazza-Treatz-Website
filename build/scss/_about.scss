@@ -152,6 +152,14 @@
 					font-size: $fontSize_large;
 					font-family: $fontStyle_option2;
 				}
+
+				span {
+					line-height: 1.75rem;
+				}
+
+				.bi {
+					margin-right: 0.5rem;
+				}
 			}
 		}
 	}
