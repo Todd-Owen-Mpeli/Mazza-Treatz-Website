@@ -1,0 +1,94 @@
+// CSS Styles for the Contact Us Page
+
+/*===== ABOUT US =====*/
+.contactUSInfo {
+	padding: 1rem;
+	margin-top: 5rem;
+	border-radius: 70px 70px 0 0;
+	background-color: $backgroundColor_White;
+
+	.content {
+		width: 100%;
+		display: flex;
+		padding: 1rem 0;
+		position: relative;
+		align-items: center;
+		flex-direction: column;
+		color: $baseColor_black;
+		justify-content: space-between;
+
+		.innerContent {
+			padding: 1rem;
+			border-radius: 15px;
+
+			h2 {
+				text-align: center;
+				color: $baseColor_black;
+				font-size: $fontSize_large-1;
+				font-family: $fontStyle_option1;
+			}
+
+			p {
+				margin-top: 1rem;
+				span {
+					color: $baseColor_black;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_option3;
+				}
+			}
+
+			.subtitle {
+				margin: auto;
+				padding: 0 1rem;
+				text-align: left;
+				color: $baseColor_black;
+				font-size: $fontSize_large-0;
+				font-family: $fontStyle_option2;
+			}
+
+			.content1 {
+				display: grid;
+				padding: 1rem;
+				margin: 4rem 0;
+				align-items: center;
+				grid-template-columns: repeat(2, 1fr);
+				grid-column-gap: 2rem;
+				justify-content: space-between;
+
+				h2 {
+					padding: 0;
+					text-align: left;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_option2;
+				}
+
+				p {
+					text-align: left;
+					align-items: center;
+					span {
+						color: $baseColor_black;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_option3;
+					}
+				}
+
+				.imageDisplay {
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: contain;
+						border-radius: 5px;
+						box-shadow: $box-shadow-1;
+						border: $baseColor_black 0.25rem solid;
+					}
+
+					img:hover {
+						transition: all 0.25s ease-in-out;
+						transform: scale(1.02);
+					}
+				}
+			}
+		}
+	}
+}
