@@ -114,7 +114,7 @@
 				text-align: left;
 				color: $baseColor_black;
 				font-size: $fontSize_large-0;
-				font-family: $fontStyle_option3;
+				font-family: $fontStyle_option2;
 			}
 
 			.content1 {
@@ -137,6 +137,20 @@
 					height: 22rem;
 					border-radius: 15px;
 					background-color: $secondary_orange;
+				}
+			}
+
+			.content2 {
+				padding: 2rem;
+				border-radius: 15px;
+				box-shadow: $box-shadow-11;
+				border: $secondary_pinkPurple 0.25rem solid;
+
+				h2 {
+					text-align: left;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_option2;
 				}
 			}
 		}
