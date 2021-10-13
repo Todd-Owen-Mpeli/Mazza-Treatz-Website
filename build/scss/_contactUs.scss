@@ -86,7 +86,19 @@
 					img:hover {
 						transition: all 0.25s ease-in-out;
 						transform: scale(1.02);
+						box-shadow: $box-shadow-4;
 					}
+				}
+
+				.point {
+					line-height: 1.5rem;
+					font-size: $fontSize_normal;
+				}
+
+				.bi {
+					line-height: 1rem;
+					margin-right: 0.5rem;
+					font-size: 0.5rem;
 				}
 			}
 		}
