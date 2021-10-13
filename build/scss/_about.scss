@@ -114,6 +114,25 @@
 					font-family: $fontStyle_option3;
 				}
 			}
+
+			.content1 {
+				display: flex;
+				justify-content: space-between;
+
+				.left {
+					text-align: left;
+					justify-self: left;
+				}
+
+				.right {
+					text-align: left;
+					justify-self: right;
+				}
+			}
+			.content2 {
+			}
+			.content3 {
+			}
 		}
 	}
 }
