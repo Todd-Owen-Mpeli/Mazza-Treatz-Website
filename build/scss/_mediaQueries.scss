@@ -334,8 +334,7 @@
 	.hero {
 		.backgroundObjects {
 			.circle {
-				width: 65vw;
-				height: 65vw;
+				display: none;
 
 				.fantaCan {
 					left: 45vw;
@@ -602,9 +601,6 @@
 	/* ===== HERO =====*/
 	.hero {
 		.backgroundObjects {
-			display: flex;
-			justify-content: space-between;
-
 			.circle {
 				display: none;
 
@@ -644,10 +640,7 @@
 
 		.content {
 			h2 {
-				text-align: center;
-				color: $baseColor_white;
-				font-size: $fontSize_XL-large;
-				font-family: $fontStyle_option1;
+				font-size: $fontSize_large-1;
 			}
 		}
 	}
@@ -680,6 +673,53 @@
 }
 
 @media (max-width: 375px) {
+	/* ===== HERO =====*/
+	.hero {
+		.backgroundObjects {
+			.circle {
+				display: none;
+
+				.fantaCan {
+					display: none;
+				}
+
+				.barrCan {
+					display: none;
+				}
+
+				.mountainDewCan {
+					display: none;
+				}
+
+				.reesesSnack {
+					display: none;
+				}
+
+				.nerdsSnack {
+					display: none;
+				}
+
+				.fruitypebblesCereal {
+					display: none;
+				}
+
+				.sourPatchKidsSnack {
+					display: none;
+				}
+
+				.warheadsSnack {
+					display: none;
+				}
+			}
+		}
+
+		.content {
+			h2 {
+				font-size: $fontSize_large-1;
+			}
+		}
+	}
+
 	/* ===== SPECIAL OFFER =====*/
 	.specialOffer {
 		.carousel {
