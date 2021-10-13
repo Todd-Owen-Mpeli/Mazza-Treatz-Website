@@ -1,8 +1,9 @@
-// CSS Styles for the Drinks Products Page
+// CSS Styles for the Products Page
+
 /*===== PRODUCTS =====*/
 .products {
 	padding: 1rem 0;
-	padding-bottom: 3rem;
+	padding: 3rem 0;
 	list-style: none;
 
 	h2 {
@@ -13,6 +14,7 @@
 		font-size: $fontSize_large;
 		font-family: $fontStyle_option2;
 	}
+
 	.display {
 		.content {
 			display: grid;
