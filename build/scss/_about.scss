@@ -73,6 +73,7 @@
 
 /*===== ABOUT US =====*/
 .about {
+	padding: 1rem;
 	margin-top: 5rem;
 	border-radius: 70px 70px 0 0;
 	background-color: $backgroundColor_White;
@@ -108,6 +109,8 @@
 			}
 
 			.subtitle {
+				margin: auto;
+				padding: 0 1rem;
 				text-align: left;
 				color: $baseColor_black;
 				font-size: $fontSize_large-0;
@@ -115,10 +118,14 @@
 			}
 
 			.content1 {
-				display: flex;
+				padding: 1rem;
+				display: grid;
+				grid-template-columns: 55% 45%;
+				grid-column-gap: 2rem;
 				justify-content: space-between;
 
 				p {
+					text-align: left;
 					span {
 						color: $baseColor_black;
 						font-size: $fontSize_normal;
@@ -126,14 +133,10 @@
 					}
 				}
 
-				.left {
-					padding: 1rem;
-					text-align: left;
-				}
-
-				.right {
-					padding: 1rem;
-					text-align: left;
+				.imageDisplay {
+					height: 22rem;
+					border-radius: 15px;
+					background-color: $secondary_orange;
 				}
 			}
 		}
