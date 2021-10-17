@@ -17,6 +17,6 @@ My first commercial E-commerce attempt, I really enjoyed the process of integrat
 I Enjoyed learning SASS extension for better CSS styling, file structure and creating specific reusable variables for better optimization. Also using Bootstrap 5 framework for better mobile responsiveness really improved my CSS hard-coding file reduction.
 
 # Personal Improvements
-Although the website is fairly functional and provides the minimum viable product.
+Although the website is fairly functional and provides the minimum viable product of displaying the large variety of unique products sold at the store, the current iteration of this project requires a list of improvements.
 
 # Potential Future Features
