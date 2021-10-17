@@ -1,4 +1,4 @@
-# Mazza Treatz online Store
+# Mazza Treatz online store
 This is a work-in-progress website I've built for a local corner shop in Swansea. It is constructed solely with HTML & SCSS - featuring a google maps API, Bootstrap 5 framework, and a custom Scroll Reveal AOS library.
 
 # Project Context
