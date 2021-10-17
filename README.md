@@ -5,7 +5,7 @@ This is a work-in-progress website I've built for a local corner shop in Swansea
 
 Mazza Treats is a small shop selling sweats, snacks, and drinks from a variety of North American and East Asian background. Due to its recent establishment in 2020 it doesn't have an online presence and only offers an in-store experience.
 
-My Objective
+# My Objective
 To build an online website presence to display the large variety of unique products sold. As these products are not available commonly within the UK. This will provide Mazza treats customers the opportunity to see the vast products without the need to drive to the shops location.
 
 # Lessons Learned
