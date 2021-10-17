@@ -34,6 +34,4 @@ Although the website is fairly functional and provides the minimum viable produc
 
 # Deployment
 
-Deployed with github pages.
-
-# Get Started
+Deployed with github pages. (Near Future)
