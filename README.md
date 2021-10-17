@@ -16,7 +16,8 @@ My first commercial E-commerce attempt, I really enjoyed the process of integrat
 
 I Enjoyed learning SASS extension for better CSS styling, file structure and creating specific reusable variables for better optimization. Also using Bootstrap 5 framework for better mobile responsiveness really improved my CSS hard-coding file reduction.
 
-Git operations specifically init, add, status, commit, remote, push and pull. Additionally creating a remote repository to learn a better development workflow process.
+1. Git operations specifically init, add, status, commit, remote, push and pull. Additionally creating a remote repository to learn a better development workflow process.
+2. SCSS File Structure, _font.scss, _color.scss_ etc. Creating seperate SCSS files for different attributes for better CSS opimazation.
 
 # Personal Improvements
 Although the website is fairly functional and provides the minimum viable product of displaying the large variety of unique products sold at the store, the current iteration of this project requires a list of improvements.
