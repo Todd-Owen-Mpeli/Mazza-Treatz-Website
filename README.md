@@ -20,3 +20,7 @@ I Enjoyed learning SASS extension for better CSS styling, file structure and cre
 Although the website is fairly functional and provides the minimum viable product of displaying the large variety of unique products sold at the store, the current iteration of this project requires a list of improvements.
 
 # Potential Future Features
+
+1. A database with products information, example if the product is available or sold out. (This will then be updated on the website in real time)
+2. Re-building the entire website with React and Node.js
+3. Implementing a checkout feature, this will allow users to have their items reserved for a selected period of time. and then be able to drive in-store for collection or pay a shipping fee. 
