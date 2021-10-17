@@ -26,4 +26,11 @@ Although the website is fairly functional and provides the minimum viable produc
 1. Develop a database with the products information.
 2. Develop a product availability feature (available or sold out). This will then be updated on the website in real time.
 3. Re-building the entire website with React and Node.js
-4. Implementing a checkout feature, this will allow users to have their items reserved for a selected period of time. and then be able to drive in-store for collection or pay a shipping fee. 
+4. Implementing a checkout feature, this will allow users to have their items reserved for a selected period of time. and then be able to drive in-store for collection or pay a shipping fee.
+
+# Deployment
+
+Deployed with github pages.
+
+
+# Get Started
