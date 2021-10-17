@@ -18,9 +18,13 @@ I Enjoyed learning SASS extension for better CSS styling, file structure and cre
 
 1. Git operations specifically init, add, status, commit, remote, push and pull. Additionally creating a remote repository to learn a better development workflow process.
 2. SCSS File Structure, _font.scss, _color.scss_ etc. Creating seperate SCSS files for different attributes for better CSS opimazation.
+3. Bootstrap 5 class intergration for view width breakpoints. 
 
 # Personal Improvements
 Although the website is fairly functional and provides the minimum viable product of displaying the large variety of unique products sold at the store, the current iteration of this project requires a list of improvements.
+
+1. More Team-orientated Git operations specifically branch and merge this will initialize a more realistic team development workflow process.
+2. Javascript functions for more interactive website, specifically HTML DOM element manipulation, displaying or removing items which are avaliable or sold out.
 
 # Potential Future Features
 1. Develop a database with the products information.
