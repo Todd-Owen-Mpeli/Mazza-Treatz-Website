@@ -32,5 +32,4 @@ Although the website is fairly functional and provides the minimum viable produc
 
 Deployed with github pages.
 
-
 # Get Started
