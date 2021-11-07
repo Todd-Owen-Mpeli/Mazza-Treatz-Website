@@ -4,12 +4,10 @@ This is a SME Coner shop website project, for a business called Mazza Treats. I 
 1. HTML
 2. CSS
 3. SCSS
-4. JavaScript
-5. jQuery
-6. Bootstrap 5
-7. API
-8. Git
-9.Github (External Repositories)
+4. Bootstrap 5
+5. API
+7. Git
+8. Github (External Repositories)
 
 Including other general web development technology such as Wireframes and UX/UI digital mockup's.
 
