@@ -1,10 +1,39 @@
 # Mazza Treatz online store
-This is a work-in-progress website I've built for a local corner shop in Swansea. It is constructed solely with HTML & SCSS - featuring a google maps API, Bootstrap 5 framework, and a custom Scroll Reveal AOS library.
+This is a SME Coner shop website project, for a business called Mazza Treats. I created this project to demonstrate my skills in the following tech stack:
+
+1. HTML
+2. CSS
+3. SCSS
+4. JavaScript
+5. jQuery
+6. Bootstrap 5
+7. API
+8. Git
+9.Github (External Repositories)
+
+Including other general web development technology such as Wireframes and UX/UI digital mockup's.
+
+As a junior software Developer I will be responsible with working with a UX/UI design team, Senior developer & SEO team alongside a existing web development team. Each responsible for managing, developing, maintaining, and supporting various web projects.
+
+This intern means that, client briefs & project details will larging be all pre-determined. And I won't be responsible for designing an entire website functionality.
+
+Although I will be required to have a minimum understanding of design principles, example the difference between padding and margin.
+
+My main responsibilities will be converting client briefs & project details into concept designs with the goal of reaching production and finally live service.
+
+# Home Page
+
+1. Please note that this demo website was built without a client or UX/UI design brief. And was design entirely my myself. (As seen below)
+
+2. All images are in 4K resolution, click to enlarge for better viewing.
 
 # Project Context
-Mazza Treats is a small shop selling sweats, snacks, and drinks from a variety of North American and East Asian background. Due to its recent establishment in 2020 it doesn't have an online presence and only offers an in-store experience.
 
-Building a online website will provide Mazza treats customers the opportunity to see the vast products without the need to make the large investment of driving to the shops location.
+As like most people we all have a our favourite corner store to grab our favourite snacks. Mazza Treats is a small shop selling sweats, snacks, and drinks from a variety of North American and East Asian background. Establishment in mid 2020 it doesn't have an online presence and only offers an in-store experience.
+
+For this project I approached the corner shop to build a website for their business. Specifically, provide Mazza treats customers the opportunity to see the vast products without the need to make the large investment of driving to the shops location.
+
+I created a client brief, project details and a Adobe XD design file for this scenario. These hypothetical details in this demo project were based on other online retailers selling similar products.
 
 # My Objective
 To build an online website presence to display the large variety of unique products sold. Since these products are not available commonly within the UK, building an interactable e-commerce website to display these unique products will help ease customer uncertainty.
