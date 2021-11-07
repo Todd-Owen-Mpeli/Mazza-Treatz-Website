@@ -1,5 +1,5 @@
 # Mazza Treatz online store
-This is a SME Coner shop website project, for a business called Mazza Treats. I created this project to demonstrate my skills in the following tech stack Including other general web development technology such as Wireframes and UX/UI digital mockup's:
+This is a SME Corner shop website project, for a business called Mazza Treats. I created this project to demonstrate my skills in the following tech stack Including other general web development technology such as Wireframes and UX/UI digital mockup's:
 
 1. HTML
 2. CSS
@@ -32,12 +32,13 @@ For this project I approached the corner shop to build a website for their busin
 I created a client brief, project details and a Adobe XD design file for this scenario. These hypothetical details in this demo project were based on other online retailers selling similar products.
 
 # My Objective
-To build an online website presence to display the large variety of unique products sold. Since these products are not available commonly within the UK, building an interactable e-commerce website to display these unique products will help ease customer uncertainty.
+My objective was to build a online website for the corner store. Specifically, to increase the local corner store reginal presence, accessibility and to display the large variety of unique products sold. Since these products are not available commonly within the UK, building an interactable e-commerce website to display these unique products will help ease customer uncertainty.
 
-Alternatively to bring this corner store in-store only shopping experience into an online platform.     
+Alternatively to bring this corner store in-store only shopping experience into an online platform.    
 
 # Lessons Learned
-My first E-commerce website, I really enjoyed the process of integrating a google maps API, while also styling the entire website elements. Specifically how to position images outside their div container, while also making each image responsive to different viewpoints.
+I learned a lot building this application more importantly I really enjoyed the process of integrating a google maps API. 0
+also enjoyed the complication of styling the entire website elements. Specifically how to position images outside their div container, while also making each image responsive to different viewpoints.
 
 I Enjoyed learning SASS extension for better CSS styling, file structure and creating specific reusable variables for better optimization. Also using Bootstrap 5 framework for better mobile responsiveness really improved my CSS hard-coding file reduction.
 
