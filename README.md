@@ -1,5 +1,5 @@
 # Mazza Treatz online store
-This is a SME Coner shop website project, for a business called Mazza Treats. I created this project to demonstrate my skills in the following tech stack:
+This is a SME Coner shop website project, for a business called Mazza Treats. I created this project to demonstrate my skills in the following tech stack Including other general web development technology such as Wireframes and UX/UI digital mockup's:
 
 1. HTML
 2. CSS
@@ -8,8 +8,6 @@ This is a SME Coner shop website project, for a business called Mazza Treats. I 
 5. API
 7. Git
 8. Github (External Repositories)
-
-Including other general web development technology such as Wireframes and UX/UI digital mockup's.
 
 As a junior software Developer I will be responsible with working with a UX/UI design team, Senior developer & SEO team alongside a existing web development team. Each responsible for managing, developing, maintaining, and supporting various web projects.
 
