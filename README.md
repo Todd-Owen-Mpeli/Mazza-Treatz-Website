@@ -23,7 +23,7 @@ My main responsibilities will be converting client briefs & project details into
 
 2. All images are in 4K resolution, click to enlarge for better viewing.
 
-<img src="src/img/Mazza%20Treats%20screenshot.png" width="100%" height="700px">
+<img src="src/img/Mazza%20Treats%20screenshot.png" width="100%" height="900px">
 
 # Project Context
 
