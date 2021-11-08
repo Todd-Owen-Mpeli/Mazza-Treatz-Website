@@ -23,6 +23,8 @@ My main responsibilities will be converting client briefs & project details into
 
 2. All images are in 4K resolution, click to enlarge for better viewing.
 
+<img src="src/img/Mazza%20Treats%20screenshot.png" width="100%" height="900px">
+
 # Project Context
 
 As like most people we all have a our favourite corner store to grab our favourite snacks. Mazza Treats is a small shop selling sweats, snacks, and drinks from a variety of North American and East Asian background. Establishment in mid 2020 it doesn't have an online presence and only offers an in-store experience.
