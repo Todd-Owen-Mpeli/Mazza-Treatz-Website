@@ -62,4 +62,4 @@ Although the website is fairly functional and provides the minimum viable produc
 
 # Deployment
 
-Deployed with github pages. (Near Future)
+Deployed with github pages here: https://todd-owen-mpeli.github.io/Mazza-Treatz-Website/
