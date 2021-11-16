@@ -17,7 +17,7 @@ Although I will be required to have a minimum understanding of design principles
 
 My main responsibilities will be converting client briefs & project details into concept designs with the goal of reaching production and finally live service.
 
-# Home Page
+# Home Page Screenshot
 
 1. Please note that this demo website was built without a client or UX/UI design brief. And was design entirely my myself. (As seen below)
 
@@ -47,6 +47,13 @@ I Enjoyed learning SASS extension for better CSS styling, file structure and cre
 1. Git operations specifically init, add, status, commit, remote, push and pull. Additionally creating a remote repository to learn a better development workflow process.
 2. SCSS File Structure, _font.scss, _color.scss_ etc. Creating seperate SCSS files for different attributes for better CSS opimazation.
 3. Responsive website using Bootstrap 5 class intergration for mobile & tablet view-width breakpoints. 
+
+# Mobile View Screenshot
+
+1. Mobile view side by side of the landing page (Full page).
+2. All images are in 4K resolution, click to enlarge for better viewing.
+
+<img src="src/img/Mobile%20View%20Screenshot.png" width="100%" height="750px">
 
 # Personal Improvements
 Although the website is fairly functional and provides the minimum viable product of displaying the large variety of unique products sold at the store, the current iteration of this project requires a list of improvements.
